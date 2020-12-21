@@ -17,9 +17,7 @@ for A in range(2):
 
 txt = " WESOŁYCH ŚWIĄT ŻYCZY JAKUB "
 
-iloscZnakow = len(txt)
+iloscZnakow = len(txt)#liczenie ilość znaków
 x = txt.center(wysokosc*2+iloscZnakow, znak)#ilość znaków jest równa wysokości choinki
 
 print(x)
-
-#program podobny do miejsca 12 tylko w pythonie a nie w javie
